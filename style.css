@@ -1,3 +1,52 @@
+body {
+    font-family: Arial, sans-serif;
+    background-color: #f7f7f7;
+}
+
+footer {
+    margin-top: 20px;
+    background-color: #333;
+    padding: 20px;
+    text-align: center;
+}
+
+
+.accordion-button {
+    background-color: #4CAF50;
+    color: white;
+    border-radius: 5px;
+    font-weight: bold;
+}
+
+.accordion-button:focus {
+    box-shadow: none;
+}
+
+.accordion-button:not(.collapsed) {
+    background-color: #45a049;
+}
+
+.accordion-body {
+    background-color: #e7e7e7;
+    padding: 20px;
+    border-radius: 0 0 5px 5px;
+}
+
+form label {
+    font-weight: bold;
+}
+
+form .form-control {
+    border-radius: 5px;
+    border: 1px solid #ddd;
+}
+
+form .btn-primary {
+    background-color: #4CAF50;
+    border: none;
+}
+
+
 @media (max-width: 1025px) {
     .img {
         height: 500px;
