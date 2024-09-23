@@ -1,3 +1,6 @@
-img{
+@media (max-width: 1025px) {
+    .img {
+        height: 500px;
+    }
     
 }
